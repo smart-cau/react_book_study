@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -16,12 +17,12 @@ class App extends Component {
     };
 
     return (
-      <Fragment>
+      <div className="my-div">
         <h1>Hello React World</h1>
         <h2>{text}</h2>
         {condition && "true일 때만 보여주고 싶어요"}
         <div style={style} />
-      </Fragment>
+      </div>
     );
   }
 }
