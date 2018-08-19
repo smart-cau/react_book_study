@@ -1,9 +1,9 @@
-import React, { Component, Fragment } from "react";
-import MyComponent from "./MyComponet";
+import React, { Component } from "react";
+import EventPractice from "./EventPractice";
 
 class App extends Component {
   render() {
-    return <MyComponent name="정현우" />;
+    return <EventPractice />;
   }
 }
 
